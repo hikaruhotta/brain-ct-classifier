@@ -1,0 +1,23 @@
+name: braingan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - tensorflow
+  - torchvision
+  - python=3.7
+  - scipy
+  - pytest
+  - tqdm
+  - pytorch
+  - tensorboardx
+  - tensorboard=1.14.0
+  - pydicom
+  - gdcm
+  - pandas
+  - pynrrd
+  - pip:
+    - torch-summary
